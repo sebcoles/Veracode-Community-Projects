@@ -13,7 +13,6 @@ theme:
 nav:
     - Home: index.md
     - Offical Opensource Projects:
-        - Project 2: official/proj3.md
-        - Project 3: official/proj4.md
+        - Veracode Delete Sandbox: official/ci-cd/github/veracode-uploadandscan-action.md
     - Veracode Community Projects:
         - Veracode Delete Sandbox: community/platform-scripts/veracode-delete-sandbox.md

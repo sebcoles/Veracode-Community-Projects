@@ -1,5 +1,3 @@
-## Veracode Delete Sandbox
-
 <b>GitHub:</b> [https://github.com/christyson/veracode_delete_sandbox](https://github.com/christyson/veracode_delete_sandbox)
 
 <b>Authors:</b> [Christyson](https://github.com/christyson/)
