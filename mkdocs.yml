@@ -1,1 +1,10 @@
 site_name: Veracode Community Projects
+site_description: 'A docs test'
+site_author: 'test'
+docs_dir: docs/
+repo_name: 'test'
+repo_url: 'https://github.com/mhausenblas/actions-sandbox'
+nav:
+    - Home: index.md
+theme:
+  name: 'material'
