@@ -5,4 +5,12 @@ docs_dir: docs/
 repo_name: 'test'
 repo_url: 'https://github.com/mhausenblas/actions-sandbox'
 theme:
-  name: 'material'
+  name: 'readthedocs'
+nav:
+    - Home: index.md
+    - Offical OSS Projects:
+        - Project 1: official/proj1.md
+        - Project 2: official/proj1.md
+    - Veracode Community Projects:
+        - Project 3: official/proj1.md
+        - Project 4: official/proj1.md
