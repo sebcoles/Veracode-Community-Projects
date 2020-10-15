@@ -8,7 +8,7 @@ theme:
   name: 'material'
   features:
     - navigation.instant
-  logo: assets/images/VeracodeCommunityLogo.svg
+  logo: assets/images/favicon.ico
   favicon: assets/images/favicon.ico
 nav:
     - Home: index.md
