@@ -8,11 +8,8 @@ theme:
   name: 'material'
   features:
     - navigation.instant
-    - navigation.tabs
-  logo: assets/VeracodeCommunityLogo.svg
-  favicon: assets/favicon.ico
-  palette:
-    primary: black
+  logo: assets/images/VeracodeCommunityLogo.svg
+  favicon: assets/images/favicon.ico
 nav:
     - Home: index.md
     - Offical OSS Projects:
