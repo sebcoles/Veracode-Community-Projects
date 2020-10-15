@@ -1,16 +1,21 @@
-site_name: Veracode Community Projects
-site_description: 'A docs test'
-site_author: 'test'
+site_name: Veracode OSS
+site_description: 'Veracode Opensource'
+site_author: 'Veracode'
 docs_dir: docs/
-repo_name: 'test'
-repo_url: 'https://github.com/mhausenblas/actions-sandbox'
+repo_name: 'Veracode-Community-Projects'
+repo_url: 'https://github.com/veracode/Veracode-Community-Projects/'
 theme:
   name: 'readthedocs'
+  features:
+    - navigation.instant
+    - navigation.tabs
+  logo: assets/VeracodeCommunityLogo.svg
+  favicon: assets/favicon.ico
 nav:
     - Home: index.md
     - Offical OSS Projects:
-        - Project 1: official/proj1.md
-        - Project 2: official/proj1.md
+        - Project 2: official/proj3.md
+        - Project 3: official/proj4.md
     - Veracode Community Projects:
-        - Project 3: official/proj1.md
-        - Project 4: official/proj1.md
+        - Project 1: community/proj1.md
+        - Project 2: community/proj2.md
