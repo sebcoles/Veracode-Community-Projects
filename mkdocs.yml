@@ -14,7 +14,7 @@ nav:
     - Home: index.md
     - Offical Opensource Projects:
         - CI/CD:
-            - GitHub
+            - GitHub:
                 - Upload and Scan Action: official/ci-cd/github/veracode-uploadandscan-action.md
     - Veracode Community Projects:
         - Veracode Delete Sandbox: community/platform-scripts/veracode-delete-sandbox.md
