@@ -5,7 +5,7 @@ docs_dir: docs/
 repo_name: 'Veracode-Community-Projects'
 repo_url: 'https://github.com/veracode/Veracode-Community-Projects/'
 theme:
-  name: 'readthedocs'
+  name: 'material'
   features:
     - navigation.instant
     - navigation.tabs
