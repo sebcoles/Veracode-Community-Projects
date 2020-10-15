@@ -1,4 +1,4 @@
-site_name: Veracode OSS
+site_name: Veracode Opensource
 site_description: 'Veracode Opensource'
 site_author: 'Veracode'
 docs_dir: docs/
@@ -12,9 +12,8 @@ theme:
   favicon: assets/images/favicon.ico
 nav:
     - Home: index.md
-    - Offical OSS Projects:
+    - Offical Opensource Projects:
         - Project 2: official/proj3.md
         - Project 3: official/proj4.md
     - Veracode Community Projects:
-        - Project 1: community/proj1.md
-        - Project 2: community/proj2.md
+        - Veracode Delete Sandbox: community/platform-scripts/veracode-delete-sandbox.md
