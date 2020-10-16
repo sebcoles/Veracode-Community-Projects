@@ -2,6 +2,6 @@
     border: solid 1px black
 }
 
-.project-tile a {
+.project-tile > a {
     text-decoration: none;
 }
