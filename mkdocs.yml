@@ -18,6 +18,7 @@ nav:
     - Veracode Community Projects:
         - Veracode Delete Sandbox: community/platform-scripts/veracode-delete-sandbox.md
 extra_css:
+    - css/bootstrap.min.css
     - css/extra.css
     - css/font-awesome.min.css
 extra_javascript:
