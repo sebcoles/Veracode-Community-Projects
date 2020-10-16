@@ -1,5 +1,5 @@
-site_name: Veracode Opensource
-site_description: 'Veracode Opensource'
+site_name: Veracode Open Source
+site_description: 'Veracode Open Source'
 site_author: 'Veracode'
 docs_dir: docs/
 repo_name: 'Veracode-Community-Projects'
@@ -19,3 +19,6 @@ nav:
         - Veracode Delete Sandbox: community/platform-scripts/veracode-delete-sandbox.md
 extra_css:
     - css/extra.css
+    - css/font-awesome.min.css
+extra_javascript:
+    - js/extra.js
