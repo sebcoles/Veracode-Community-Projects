@@ -1,5 +1,3 @@
-<div markdown="1" class="project-tile">
-
 ## Veracode Delete Sandbox
 
 [![GitHub forks](https://img.shields.io/github/forks/christyson/veracode_delete_sandbox.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/Naereen/StrapDown.js/network/)
@@ -11,10 +9,6 @@
     
 Description: A simple example script to delete a Sandbox if it exists in a Veracode application profile and you have the appropriate permissions.
 
-</div>
-
-<div markdown="1" class="project-tile">
-
 ## Veracode Delete Sandbox
 
 [![GitHub forks](https://img.shields.io/github/forks/christyson/veracode_delete_sandbox.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/Naereen/StrapDown.js/network/)
@@ -25,5 +19,3 @@ Description: A simple example script to delete a Sandbox if it exists in a Verac
 
     
 Description: A simple example script to delete a Sandbox if it exists in a Veracode application profile and you have the appropriate permissions.
-
-</div>
