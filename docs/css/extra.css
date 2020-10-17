@@ -1,5 +1,6 @@
 .project-tile {
-    margin-bottom:20px
+    margin-bottom:20px;
+    padding:20px;
 }
 
 .project-tile > a {
