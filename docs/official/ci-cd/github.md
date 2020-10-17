@@ -1,4 +1,4 @@
-<p class="project-tile">
+<span class="project-tile">
 
 ## Veracode Delete Sandbox
 
@@ -11,9 +11,9 @@
     
 Description: A simple example script to delete a Sandbox if it exists in a Veracode application profile and you have the appropriate permissions.
 
-</p>
+</span>
 
-<p class="project-tile">
+<span class="project-tile">
 
 ## Veracode Delete Sandbox
 
@@ -26,4 +26,4 @@ Description: A simple example script to delete a Sandbox if it exists in a Verac
     
 Description: A simple example script to delete a Sandbox if it exists in a Veracode application profile and you have the appropriate permissions.
 
-</p>
+</span>
