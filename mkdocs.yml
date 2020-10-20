@@ -37,7 +37,6 @@ nav:
             - Insomnia: community/sdk/insomnia.md
         - Utility:
             - Administration: community/utility/administration.md
-            - Investigation: community/utility/investigation.md
         - Workflow:
             - Notifications: community/workflow/notifications.md
         - Resources:
