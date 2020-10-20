@@ -16,11 +16,11 @@ nav:
         - CI/CD:
             - GitHub: official/ci-cd/github.md
     - Veracode Community Projects:
-         - SDK:
+        - SDK:
             - API Wrapper Libraries: community/sdk/api-wrappers.md
             - CLI Tools: community/sdk/cli.md
             - HMAC Signing Libraries: community/sdk/hmac-signing-libraries.md
-         - CI/CD:
+        - CI/CD:
             - GitHub: community/ci-cd/github.md
             - GitHub: community/ci-cd/gitlab.md
             - GitHub: community/ci-cd/azuredevops.md
@@ -43,7 +43,6 @@ nav:
         - Resources:
             - Insecure Applications: community/resources/insecure-applications.md
             - Secure Coding Examples: community/resources/secure-coding-samples.md
-
 extra_css:
     - css/extra.css
     - css/font-awesome.min.css
