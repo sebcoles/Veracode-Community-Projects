@@ -10,8 +10,8 @@
 Extends the Java API Wrapper to provide "break the build" style scanning. Includes instructions on how to integrate this workflow into Jenkins.
 
 [![](https://img.shields.io/github/followers/christyson?label=christyson&style=social)](https://github/christyson)
----
 
+---
 ### [Jenkins Shell](https://github.com/ian-c-leonard/veracode_jenkins_shell)
 
 ![](https://img.shields.io/github/stars/ian-c-leonard/veracode_jenkins_shell.svg?style=social)
@@ -24,12 +24,10 @@ Extends the Java API Wrapper to provide "break the build" style scanning. Includ
 Unofficial Veracode shell integration for Jenkins Freestyle projects.
 
 [![](https://img.shields.io/github/followers/ian-c-leonard?label=ian-c-leonard&style=social)](https://github/ian-c-leonard)
----
 
+---
 ### [veracode-scripts](https://gitlab.com/aszaryk/veracode-scripts)
 
 Various example scripts for Jenkins and GitLab pipelines, including both static and dynamic examples.
 
 [aszaryk](https://gitlab.com/aszaryk)
-
----

@@ -80,6 +80,7 @@ Utility designed to be run on a regular cadence (e.g., weekly cron job) to expir
 This project contains three python scripts useful for working with Veracode projects in a build pipeline to break the build if any findings of a given severity or higher are found.
 
 [![](https://img.shields.io/github/followers/christyson?label=christyson&style=social)](https://github/christyson)
+
 ---
 ### [Veracode BCA Builder](https://github.com/brian1917/veracode-bca-builder)
 

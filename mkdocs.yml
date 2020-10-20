@@ -30,6 +30,7 @@ nav:
             - CircleCI: community/ci-cd/circle-ci.md
             - ConcourseCI: community/ci-cd/concourse-ci.md
             - Travis: community/ci-cd/travis.md
+            - Ansible: community/ci-cd/ansible.md
         - IDE:
             - VsCode: community/ide/vscode.md
         - Testing Tools:
