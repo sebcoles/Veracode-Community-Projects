@@ -12,7 +12,7 @@ theme:
   favicon: assets/images/favicon.ico
 nav:
     - Home: index.md
-    - Offical Opensource Projects:
+    - Offical Open Source Projects:
         - CI/CD:
             - GitHub: official/ci-cd/github.md
     - Veracode Community Projects:
