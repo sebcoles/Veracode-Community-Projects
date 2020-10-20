@@ -22,14 +22,14 @@ nav:
             - HMAC Signing Libraries: community/sdk/hmac-signing-libraries.md
         - CI/CD:
             - GitHub: community/ci-cd/github.md
-            - GitHub: community/ci-cd/gitlab.md
-            - GitHub: community/ci-cd/azuredevops.md
-            - GitHub: community/ci-cd/jenkins.md
-            - GitHub: community/ci-cd/docker.md
-            - GitHub: community/ci-cd/bamboo.md
-            - GitHub: community/ci-cd/circle-ci.md
-            - GitHub: community/ci-cd/concourse-ci.md
-            - GitHub: community/ci-cd/travis.md
+            - GitLab: community/ci-cd/gitlab.md
+            - Azure Devops: community/ci-cd/azuredevops.md
+            - Jenkins: community/ci-cd/jenkins.md
+            - Docker: community/ci-cd/docker.md
+            - Bamboo: community/ci-cd/bamboo.md
+            - CircleCI: community/ci-cd/circle-ci.md
+            - ConcourseCI: community/ci-cd/concourse-ci.md
+            - Travis: community/ci-cd/travis.md
         - IDE:
             - VsCode: community/ide/vscode.md
         - Testing Tools:
