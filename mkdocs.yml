@@ -12,10 +12,10 @@ theme:
   favicon: assets/images/favicon.ico
 nav:
     - Home: index.md
-    - Offical Open Source Projects:
+    - Offical Projects:
         - CI/CD:
             - GitHub: official/ci-cd/github.md
-    - Veracode Community Projects:
+    - Community Projects:
         - SDK:
             - API Wrapper Libraries: community/sdk/api-wrappers.md
             - CLI Tools: community/sdk/cli.md
@@ -36,10 +36,10 @@ nav:
             - Postman: community/sdk/postman.md
             - Insomnia: community/sdk/insomnia.md
         - Utility:
-            - VsCode: community/utility/administration.md
-            - VsCode: community/utility/investigation.md
+            - Administration: community/utility/administration.md
+            - Investigation: community/utility/investigation.md
         - Workflow:
-            - VsCode: community/workflow/notifications.md
+            - Notifications: community/workflow/notifications.md
         - Resources:
             - Insecure Applications: community/resources/insecure-applications.md
             - Secure Coding Examples: community/resources/secure-coding-samples.md
