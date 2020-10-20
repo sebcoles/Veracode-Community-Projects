@@ -16,7 +16,34 @@ nav:
         - CI/CD:
             - GitHub: official/ci-cd/github.md
     - Veracode Community Projects:
-        - Veracode Delete Sandbox: community/platform-scripts/veracode-delete-sandbox.md
+         - SDK:
+            - API Wrapper Libraries: community/sdk/api-wrappers.md
+            - CLI Tools: community/sdk/cli.md
+            - HMAC Signing Libraries: community/sdk/hmac-signing-libraries.md
+         - CI/CD:
+            - GitHub: community/ci-cd/github.md
+            - GitHub: community/ci-cd/gitlab.md
+            - GitHub: community/ci-cd/azuredevops.md
+            - GitHub: community/ci-cd/jenkins.md
+            - GitHub: community/ci-cd/docker.md
+            - GitHub: community/ci-cd/bamboo.md
+            - GitHub: community/ci-cd/circle-ci.md
+            - GitHub: community/ci-cd/concourse-ci.md
+            - GitHub: community/ci-cd/travis.md
+        - IDE:
+            - VsCode: community/ide/vscode.md
+        - Testing Tools:
+            - Postman: community/sdk/postman.md
+            - Insomnia: community/sdk/insomnia.md
+        - Utility:
+            - VsCode: community/utility/administration.md
+            - VsCode: community/utility/investigation.md
+        - Workflow:
+            - VsCode: community/workflow/notifications.md
+        - Resources:
+            - Insecure Applications: community/resources/insecure-applications.md
+            - Secure Coding Examples: community/resources/secure-coding-samples.md
+
 extra_css:
     - css/extra.css
     - css/font-awesome.min.css
