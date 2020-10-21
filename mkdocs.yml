@@ -31,6 +31,10 @@ nav:
             - ConcourseCI: community/ci-cd/concourse-ci.md
             - Travis: community/ci-cd/travis.md
             - Ansible: community/ci-cd/ansible.md
+            - sbt: community/ci-cd/sbt.md
+            - BitriseCI: community/ci-cd/bitrise-ci.md
+            - Gradle: community/ci-cd/gradle.md
+            - Xebia Labs: community/ci-cd/xebia-labs.md
         - IDE:
             - VsCode: community/ide/vscode.md
         - Testing Tools:
@@ -39,6 +43,8 @@ nav:
         - Utility:
             - Administration: community/utility/administration.md
         - Workflow:
+            - Flowdock: community/workflow/flowdock.md
+            - Slack: community/workflow/slack.md
             - Notifications: community/workflow/notifications.md
         - Resources:
             - Insecure Applications: community/resources/insecure-applications.md
