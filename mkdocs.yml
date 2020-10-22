@@ -21,7 +21,6 @@ nav:
             - CLI Tools: community/sdk/cli.md
             - HMAC Signing Libraries: community/sdk/hmac-signing-libraries.md
         - CI/CD:
-            - GitHub: community/ci-cd/github.md
             - GitLab: community/ci-cd/gitlab.md
             - Azure Devops: community/ci-cd/azuredevops.md
             - Jenkins: community/ci-cd/jenkins.md
@@ -46,9 +45,9 @@ nav:
             - Flowdock: community/workflow/flowdock.md
             - Slack: community/workflow/slack.md
             - Notifications: community/workflow/notifications.md
-        - Resources:
-            - Insecure Applications: community/resources/insecure-applications.md
-            - Secure Coding Examples: community/resources/secure-coding-samples.md
+    - Resources:
+        - Insecure Applications: community/resources/insecure-applications.md
+        - Secure Coding Examples: community/resources/secure-coding-samples.md
 extra_css:
     - css/extra.css
     - css/font-awesome.min.css
