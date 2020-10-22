@@ -1,17 +1,3 @@
-### [VSCode-Veracode](https://gitlab.com/buzzcode/VSCode-Veracode)
-
-![](https://img.shields.io/github/stars/buzzcode/VSCode-Veracode.svg?style=social)
-![](https://img.shields.io/github/forks/buzzcode/VSCode-Veracode.svg?style=social)
-![](https://img.shields.io/github/watchers/buzzcode/VSCode-Veracode.svg?style=social)
-
-![](https://img.shields.io/github/languages/top/buzzcode/VSCode-Veracode)
-![](https://img.shields.io/github/contributors/buzzcode/VSCode-Veracode)
-
-A plugin for Visual Studio Code that enables integration with Veracode Static Analysis. Currently, this only supports flaw download, but will be enhanced to support upload as well in the future.
-
-[![](https://img.shields.io/github/followers/buzzcode?label=buzzcode&style=social)](https://github/buzzcode)
-
----
 ### [vsccode-veracode-sca](https://github.com/Lerer/vscode-veracode-sca)
 
 ![](https://img.shields.io/github/stars/Lerer/vscode-veracode-sca.svg?style=social)
