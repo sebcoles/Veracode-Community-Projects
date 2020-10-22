@@ -12,9 +12,7 @@ theme:
   favicon: assets/images/favicon.ico
 nav:
     - Home: index.md
-    - Offical Projects:
-        - CI/CD:
-            - GitHub: official/ci-cd/github.md
+    - Offical Projects: official/official.md
     - Community Projects:
         - SDK:
             - API Wrapper Libraries: community/sdk/api-wrappers.md
