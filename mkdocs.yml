@@ -46,6 +46,7 @@ nav:
     - Resources:
         - Insecure Applications: resources/insecure-applications.md
         - Secure Coding Examples: resources/secure-coding-samples.md
+    - Veracode Community: "https://community.veracode.com/"
 extra_css:
     - css/extra.css
     - css/font-awesome.min.css
