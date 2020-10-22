@@ -46,12 +46,12 @@ Client code using the Veracode REST and XML APIs. Includes handlers for Veracode
 
 ### [veracode-platform-api-framework (Java)](https://github.com/dennismedeiros/veracode-platform-api-framework)
 
-![](https://img.shields.io/github/stars//dennismedeiros/veracode-platform-api-framework.svg?style=social)
-![](https://img.shields.io/github/forks//dennismedeiros/veracode-platform-api-framework.svg?style=social)
-![](https://img.shields.io/github/watchers//dennismedeiros/veracode-platform-api-framework.svg?style=social)
+![](https://img.shields.io/github/stars/dennismedeiros/veracode-platform-api-framework.svg?style=social)
+![](https://img.shields.io/github/forks/dennismedeiros/veracode-platform-api-framework.svg?style=social)
+![](https://img.shields.io/github/watchers/dennismedeiros/veracode-platform-api-framework.svg?style=social)
 
-![](https://img.shields.io/github/languages/top//dennismedeiros/veracode-platform-api-framework)
-![](https://img.shields.io/github/contributors//dennismedeiros/veracode-platform-api-framework)
+![](https://img.shields.io/github/languages/top/dennismedeiros/veracode-platform-api-framework)
+![](https://img.shields.io/github/contributors/dennismedeiros/veracode-platform-api-framework)
 
 Several project that allow for processing of Veracode XML API data through calls with similar objects and functionality.
 
