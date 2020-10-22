@@ -1,0 +1,1138 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Veracode Open Source">
+      
+      
+      
+        <meta name="author" content="Veracode">
+      
+      <link rel="shortcut icon" href="../../../assets/images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.1.0">
+    
+    
+      
+        <title>Administration - Veracode Open Source</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.bc7e593a.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab28b872.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../../../css/extra.css">
+    
+      <link rel="stylesheet" href="../../../css/font-awesome.min.css">
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+      
+  
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#veracode-delete-sandbox" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="../../.." title="Veracode Open Source" class="md-header-nav__button md-logo" aria-label="Veracode Open Source">
+      
+  <img src="../../../assets/images/favicon.ico" alt="logo">
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            Veracode Open Source
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Administration
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header-nav__source">
+        
+<a href="https://github.com/veracode/Veracode-Community-Projects/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Veracode-Community-Projects
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Veracode Open Source" class="md-nav__button md-logo" aria-label="Veracode Open Source">
+      
+  <img src="../../../assets/images/favicon.ico" alt="logo">
+
+    </a>
+    Veracode Open Source
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/veracode/Veracode-Community-Projects/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Veracode-Community-Projects
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../.." class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../../official/official/" class="md-nav__link">
+      Offical Projects
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
+    
+    <label class="md-nav__link" for="nav-3">
+      Community Projects
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Community Projects" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon"></span>
+        Community Projects
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-1" type="checkbox" id="nav-3-1">
+    
+    <label class="md-nav__link" for="nav-3-1">
+      SDK
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="SDK" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-1">
+        <span class="md-nav__icon md-icon"></span>
+        SDK
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../sdk/api-wrappers/" class="md-nav__link">
+      API Wrapper Libraries
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../sdk/cli/" class="md-nav__link">
+      CLI Tools
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../sdk/hmac-signing-libraries/" class="md-nav__link">
+      HMAC Signing Libraries
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-2" type="checkbox" id="nav-3-2">
+    
+    <label class="md-nav__link" for="nav-3-2">
+      CI/CD
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="CI/CD" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-2">
+        <span class="md-nav__icon md-icon"></span>
+        CI/CD
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ci-cd/ansible/" class="md-nav__link">
+      Ansible
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ci-cd/azuredevops/" class="md-nav__link">
+      Azure Devops
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ci-cd/bamboo/" class="md-nav__link">
+      Bamboo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ci-cd/bitrise-ci/" class="md-nav__link">
+      BitriseCI
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ci-cd/circle-ci/" class="md-nav__link">
+      CircleCI
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ci-cd/concourse-ci/" class="md-nav__link">
+      ConcourseCI
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ci-cd/docker/" class="md-nav__link">
+      Docker
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ci-cd/gitlab/" class="md-nav__link">
+      GitLab
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ci-cd/gradle/" class="md-nav__link">
+      Gradle
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ci-cd/jenkins/" class="md-nav__link">
+      Jenkins
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ci-cd/sbt/" class="md-nav__link">
+      sbt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ci-cd/travis/" class="md-nav__link">
+      Travis
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ci-cd/xebia-labs/" class="md-nav__link">
+      Xebia Labs
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-3" type="checkbox" id="nav-3-3">
+    
+    <label class="md-nav__link" for="nav-3-3">
+      IDE
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="IDE" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-3">
+        <span class="md-nav__icon md-icon"></span>
+        IDE
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ide/vscode/" class="md-nav__link">
+      VsCode
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-4" type="checkbox" id="nav-3-4">
+    
+    <label class="md-nav__link" for="nav-3-4">
+      Testing Tools
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Testing Tools" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-4">
+        <span class="md-nav__icon md-icon"></span>
+        Testing Tools
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../testing-tools/insomnia/" class="md-nav__link">
+      Insomnia
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../testing-tools/postman/" class="md-nav__link">
+      Postman
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-5" type="checkbox" id="nav-3-5" checked>
+    
+    <label class="md-nav__link" for="nav-3-5">
+      Utility
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Utility" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-5">
+        <span class="md-nav__icon md-icon"></span>
+        Utility
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Administration
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" class="md-nav__link md-nav__link--active">
+      Administration
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#veracode-delete-sandbox" class="md-nav__link">
+    Veracode Delete Sandbox
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#check-build-status" class="md-nav__link">
+    Check Build Status
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#veracode-api-credentials-expiry" class="md-nav__link">
+    Veracode API Credentials Expiry
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vcodeautomitigate" class="md-nav__link">
+    VcodeAutoMitigate
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vcodemitigationexpire" class="md-nav__link">
+    VcodeMitigationExpire
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#veracode-break-the-build-by-severity" class="md-nav__link">
+    Veracode Break the Build by Severity
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#veracode-bca-builder" class="md-nav__link">
+    Veracode BCA Builder
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#veracode-sandbox-mitigated-unique-findings" class="md-nav__link">
+    Veracode Sandbox Mitigated Unique Findings
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#veracode-mitigation-copier" class="md-nav__link">
+    Veracode Mitigation Copier
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#veracode-user-bulk-role-assign" class="md-nav__link">
+    Veracode User Bulk Role Assign
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#veracode-workspace-auto-create" class="md-nav__link">
+    Veracode Workspace Auto Create
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-6" type="checkbox" id="nav-3-6">
+    
+    <label class="md-nav__link" for="nav-3-6">
+      Workflow
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Workflow" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-6">
+        <span class="md-nav__icon md-icon"></span>
+        Workflow
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../workflow/flowdock/" class="md-nav__link">
+      Flowdock
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../workflow/slack/" class="md-nav__link">
+      Slack
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../workflow/notifications/" class="md-nav__link">
+      Notifications
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Resources
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Resources" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        <span class="md-nav__icon md-icon"></span>
+        Resources
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../resources/insecure-applications/" class="md-nav__link">
+      Insecure Applications
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../resources/secure-coding-samples/" class="md-nav__link">
+      Secure Coding Examples
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="https://community.veracode.com/" class="md-nav__link">
+      Veracode Community
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#veracode-delete-sandbox" class="md-nav__link">
+    Veracode Delete Sandbox
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#check-build-status" class="md-nav__link">
+    Check Build Status
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#veracode-api-credentials-expiry" class="md-nav__link">
+    Veracode API Credentials Expiry
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vcodeautomitigate" class="md-nav__link">
+    VcodeAutoMitigate
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vcodemitigationexpire" class="md-nav__link">
+    VcodeMitigationExpire
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#veracode-break-the-build-by-severity" class="md-nav__link">
+    Veracode Break the Build by Severity
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#veracode-bca-builder" class="md-nav__link">
+    Veracode BCA Builder
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#veracode-sandbox-mitigated-unique-findings" class="md-nav__link">
+    Veracode Sandbox Mitigated Unique Findings
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#veracode-mitigation-copier" class="md-nav__link">
+    Veracode Mitigation Copier
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#veracode-user-bulk-role-assign" class="md-nav__link">
+    Veracode User Bulk Role Assign
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#veracode-workspace-auto-create" class="md-nav__link">
+    Veracode Workspace Auto Create
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/veracode/Veracode-Community-Projects/edit/master/docs/community/utility/administration.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                  <h1>Administration</h1>
+                
+                <h3 id="veracode-delete-sandbox"><a href="https://github.com/christyson/veracode_delete_sandbox">Veracode Delete Sandbox</a></h3>
+<p><img alt="" src="https://img.shields.io/github/stars/christyson/veracode_delete_sandbox.svg?style=social" />
+<img alt="" src="https://img.shields.io/github/forks/christyson/veracode_delete_sandbox.svg?style=social" />
+<img alt="" src="https://img.shields.io/github/watchers/christyson/veracode_delete_sandbox.svg?style=social" /></p>
+<p><img alt="" src="https://img.shields.io/github/languages/top/christyson/veracode_delete_sandbox" />
+<img alt="" src="https://img.shields.io/github/contributors/christyson/veracode_delete_sandbox" /></p>
+<p>A simple example script to delete a Sandbox if it exists in a Veracode application profile and you have the appropriate permissions.</p>
+<p><a href="https://github.com/christyson"><img alt="" src="https://img.shields.io/github/followers/christyson?label=christyson&amp;style=social" /></a></p>
+<hr />
+<h3 id="check-build-status"><a href="https://github.com/christyson/check_build_status">Check Build Status</a></h3>
+<p><img alt="" src="https://img.shields.io/github/stars/christyson/check_build_status.svg?style=social" />
+<img alt="" src="https://img.shields.io/github/forks/christyson/check_build_status.svg?style=social" />
+<img alt="" src="https://img.shields.io/github/watchers/christyson/check_build_status.svg?style=social" /></p>
+<p><img alt="" src="https://img.shields.io/github/languages/top/christyson/check_build_status" />
+<img alt="" src="https://img.shields.io/github/contributors/christyson/check_build_status" /></p>
+<p>Script to check if an application profile in Veracode has a build running currently.</p>
+<p><a href="https://github.com/christyson"><img alt="" src="https://img.shields.io/github/followers/christyson?label=christyson&amp;style=social" /></a></p>
+<hr />
+<h3 id="veracode-api-credentials-expiry"><a href="https://github.com/christyson/veracode-python-api_credentials_expiry-example">Veracode API Credentials Expiry</a></h3>
+<p><img alt="" src="https://img.shields.io/github/stars/christyson/veracode-python-api_credentials_expiry-example.svg?style=social" />
+<img alt="" src="https://img.shields.io/github/forks/christyson/veracode-python-api_credentials_expiry-example.svg?style=social" />
+<img alt="" src="https://img.shields.io/github/watchers/christyson/veracode-python-api_credentials_expiry-example.svg?style=social" /></p>
+<p><img alt="" src="https://img.shields.io/github/languages/top/christyson/veracode-python-api_credentials_expiry-example" />
+<img alt="" src="https://img.shields.io/github/contributors/christyson/veracode-python-api_credentials_expiry-example" /></p>
+<p>A simple example to get the exiration dates of api credentials for your users.</p>
+<p><a href="https://github.com/christyson"><img alt="" src="https://img.shields.io/github/followers/christyson?label=christyson&amp;style=social" /></a></p>
+<hr />
+<h3 id="vcodeautomitigate"><a href="https://github.com/brian1917/vcodeAutoMitigate">VcodeAutoMitigate</a></h3>
+<p><img alt="" src="https://img.shields.io/github/stars/brian1917/vcodeAutoMitigate.svg?style=social" />
+<img alt="" src="https://img.shields.io/github/forks/brian1917/vcodeAutoMitigate.svg?style=social" />
+<img alt="" src="https://img.shields.io/github/watchers/brian1917/vcodeAutoMitigate.svg?style=social" /></p>
+<p><img alt="" src="https://img.shields.io/github/languages/top/brian1917/vcodeAutoMitigate" />
+<img alt="" src="https://img.shields.io/github/contributors/brian1917/vcodeAutoMitigate" /></p>
+<p>Command line app that mitigates flaws in Veracode based on CWE, scan type, and specific text in the description.</p>
+<p><a href="https://github.com/brian1917"><img alt="" src="https://img.shields.io/github/followers/brian1917?label=brian1917&amp;style=social" /></a></p>
+<hr />
+<h3 id="vcodemitigationexpire"><a href="https://github.com/brian1917/vcodeMitigationExpire">VcodeMitigationExpire</a></h3>
+<p><img alt="" src="https://img.shields.io/github/stars/brian1917/vcodeMitigationExpire.svg?style=social" />
+<img alt="" src="https://img.shields.io/github/forks/brian1917/vcodeMitigationExpire.svg?style=social" />
+<img alt="" src="https://img.shields.io/github/watchers/brian1917/vcodeMitigationExpire.svg?style=social" /></p>
+<p><img alt="" src="https://img.shields.io/github/languages/top/brian1917/vcodeMitigationExpire" />
+<img alt="" src="https://img.shields.io/github/contributors/brian1917/vcodeMitigationExpire" /></p>
+<p>Utility designed to be run on a regular cadence (e.g., weekly cron job) to expire mitigations. The types of mitigations, expiration references, and other settings are controlled in a JSON config file.</p>
+<p><a href="https://github.com/brian1917"><img alt="" src="https://img.shields.io/github/followers/brian1917?label=brian1917&amp;style=social" /></a></p>
+<hr />
+<h3 id="veracode-break-the-build-by-severity"><a href="https://github.com/christyson/Veracode-Break-The-Build-By-Severity">Veracode Break the Build by Severity</a></h3>
+<p><img alt="" src="https://img.shields.io/github/stars/christyson/Veracode-Break-The-Build-By-Severity.svg?style=social" />
+<img alt="" src="https://img.shields.io/github/forks/christyson/Veracode-Break-The-Build-By-Severity.svg?style=social" />
+<img alt="" src="https://img.shields.io/github/watchers/christyson/Veracode-Break-The-Build-By-Severity.svg?style=social" /></p>
+<p><img alt="" src="https://img.shields.io/github/languages/top/christyson/Veracode-Break-The-Build-By-Severity" />
+<img alt="" src="https://img.shields.io/github/contributors/christyson/Veracode-Break-The-Build-By-Severity" /></p>
+<p>This project contains three python scripts useful for working with Veracode projects in a build pipeline to break the build if any findings of a given severity or higher are found.</p>
+<p><a href="https://github.com/christyson"><img alt="" src="https://img.shields.io/github/followers/christyson?label=christyson&amp;style=social" /></a></p>
+<hr />
+<h3 id="veracode-bca-builder"><a href="https://github.com/brian1917/veracode-bca-builder">Veracode BCA Builder</a></h3>
+<p><img alt="" src="https://img.shields.io/github/stars/brian1917/veracode-bca-builder.svg?style=social" />
+<img alt="" src="https://img.shields.io/github/forks/brian1917/veracode-bca-builder.svg?style=social" />
+<img alt="" src="https://img.shields.io/github/watchers/brian1917/veracode-bca-builder.svg?style=social" /></p>
+<p><img alt="" src="https://img.shields.io/github/languages/top/brian1917/veracode-bca-builder" />
+<img alt="" src="https://img.shields.io/github/contributors/brian1917/veracode-bca-builder" /></p>
+<p>Shell script to generate the BCA package to scan an iOS app.</p>
+<p><a href="https://github.com/brian1917"><img alt="https://github/brian1917" src="https://img.shields.io/github/followers/brian1917?label=brian1917&amp;style=social" /></a></p>
+<hr />
+<h3 id="veracode-sandbox-mitigated-unique-findings"><a href="https://github.com/ctcampbell/veracode-sandbox-mitigated-unique-findings">Veracode Sandbox Mitigated Unique Findings</a></h3>
+<p><img alt="" src="https://img.shields.io/github/stars/ctcampbell/veracode-sandbox-mitigated-unique-findings.svg?style=social" />
+<img alt="" src="https://img.shields.io/github/forks/ctcampbell/veracode-sandbox-mitigated-unique-findings.svg?style=social" />
+<img alt="" src="https://img.shields.io/github/watchers/ctcampbell/veracode-sandbox-mitigated-unique-findings.svg?style=social" /></p>
+<p><img alt="" src="https://img.shields.io/github/languages/top/ctcampbell/veracode-sandbox-mitigated-unique-findings" />
+<img alt="" src="https://img.shields.io/github/contributors/ctcampbell/veracode-sandbox-mitigated-unique-findings" /></p>
+<p>This script will pull all open findings across all sandboxes for all applications and calculate which mitigated (proposed, accepted, or rejected) findings only exist in a single sandbox, and therefore may be deleted when the sandbox is deleted.</p>
+<p><a href="https://github.com/ctcampbell"><img alt="" src="https://img.shields.io/github/followers/brian1917?label=ctcampbell&amp;style=social" /></a></p>
+<hr />
+<h3 id="veracode-mitigation-copier"><a href="https://github.com/tjarrettveracode/veracode-mitigation-copier">Veracode Mitigation Copier</a></h3>
+<p><img alt="" src="https://img.shields.io/github/stars/tjarrettveracode/veracode-mitigation-copier.svg?style=social" />
+<img alt="" src="https://img.shields.io/github/forks/tjarrettveracode/veracode-mitigation-copier.svg?style=social" />
+<img alt="" src="https://img.shields.io/github/watchers/tjarrettveracode/veracode-mitigation-copier.svg?style=social" /></p>
+<p><img alt="" src="https://img.shields.io/github/languages/top/tjarrettveracode/veracode-mitigation-copier" />
+<img alt="" src="https://img.shields.io/github/contributors/tjarrettveracode/veracode-mitigation-copier" /></p>
+<p>This script will pull all open findings across all sandboxes for all applications and calculate which mitigated (proposed, accepted, or rejected) findings only exist in a single sandbox, and therefore may be deleted when the sandbox is deleted.</p>
+<p><a href="https://github.com/tjarrettveracode"><img alt="" src="https://img.shields.io/github/followers/tjarrettveracode?label=tjarrettveracode&amp;style=social" /></a></p>
+<hr />
+<h3 id="veracode-user-bulk-role-assign"><a href="https://github.com/tjarrettveracode/veracode-user-bulk-role-assign">Veracode User Bulk Role Assign</a></h3>
+<p><img alt="" src="https://img.shields.io/github/stars/tjarrettveracode/veracode-user-bulk-role-assign.svg?style=social" />
+<img alt="" src="https://img.shields.io/github/forks/tjarrettveracode/veracode-user-bulk-role-assign.svg?style=social" />
+<img alt="" src="https://img.shields.io/github/watchers/tjarrettveracode/veracode-user-bulk-role-assign.svg?style=social" /></p>
+<p><img alt="" src="https://img.shields.io/github/languages/top/tjarrettveracode/veracode-user-bulk-role-assign" />
+<img alt="" src="https://img.shields.io/github/contributors/tjarrettveracode/veracode-user-bulk-role-assign" /></p>
+<p>This script will pull all open findings across all sandboxes for all applications and calculate which mitigated (proposed, accepted, or rejected) findings only exist in a single sandbox, and therefore may be deleted when the sandbox is deleted.</p>
+<p><a href="https://github.com/tjarrettveracode"><img alt="" src="https://img.shields.io/github/followers/tjarrettveracode?label=tjarrettveracode&amp;style=social" /></a></p>
+<hr />
+<h3 id="veracode-workspace-auto-create"><a href="https://github.com/tjarrettveracode/veracode-workspace-auto-create">Veracode Workspace Auto Create</a></h3>
+<p>This script will pull all open findings across all sandboxes for all applications and calculate which mitigated (proposed, accepted, or rejected) findings only exist in a single sandbox, and therefore may be deleted when the sandbox is deleted.</p>
+<p><img alt="" src="https://img.shields.io/github/stars/tjarrettveracode/veracode-workspace-auto-create.svg" />
+<img alt="" src="https://img.shields.io/github/languages/top/tjarrettveracode/veracode-workspace-auto-create" />
+<img alt="" src="https://img.shields.io/github/contributors/tjarrettveracode/veracode-workspace-auto-create" />
+<a href="https://github.com/tjarrettveracode"><img alt="" src="https://img.shields.io/github/followers/tjarrettveracode?label=tjarrettveracode&amp;style=social" /></a></p>
+<hr />
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../../testing-tools/postman/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Postman
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../../workflow/flowdock/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Flowdock
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../../assets/javascripts/vendor.6a3d08fc.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.71201edf.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../../..",
+          features: ['navigation.instant'],
+          search: Object.assign({
+            worker: "../../../assets/javascripts/worker/search.4ac00218.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+        <script src="../../../js/extra.js"></script>
+      
+    
+  </body>
+</html>
