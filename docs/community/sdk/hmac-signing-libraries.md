@@ -54,20 +54,6 @@ A PowerShell example for doing HMAC authentication to the Veracode APIs.
 [![](https://img.shields.io/github/followers/rafaelzm2000?label=rafaelzm2000&style=social)](https://github/rafaelzm2000)
 
 ---
-### [Veracode_HMAC_Auth](https://github.com/rafaelzm2000/Veracode_HMAC_Auth)
-
-![](https://img.shields.io/github/stars/rafaelzm2000/Veracode_HMAC_Auth.svg?style=social)
-![](https://img.shields.io/github/forks/rafaelzm2000/Veracode_HMAC_Auth.svg?style=social)
-![](https://img.shields.io/github/watchers/rafaelzm2000/Veracode_HMAC_Auth.svg?style=social)
-
-![](https://img.shields.io/github/languages/top/rafaelzm2000/Veracode_HMAC_Auth)
-![](https://img.shields.io/github/contributors/rafaelzm2000/Veracode_HMAC_Auth)
-
-A PowerShell example for doing HMAC authentication to the Veracode APIs.
-
-[![](https://img.shields.io/github/followers/rafaelzm2000?label=rafaelzm2000&style=social)](https://github/rafaelzm2000)
-
----
 ### [auth.js](https://gist.github.com/ThibaudLopez/fe1baeaa4461cbf0bfa8fd258ff43243)
 
 Veracode custom HMAC request signing algorithm (used for API authorization), written in JavaScript -- uses Web Crypto API instead of the Node Crypto library

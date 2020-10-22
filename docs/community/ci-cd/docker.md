@@ -24,3 +24,17 @@ A docker container for use in CI pipelines which integrates with Veracode's stat
 Docker image with all Veracode tools pre-installed.
 
 [![](https://img.shields.io/github/followers/ctcampbell?label=ctcampbell&style=social)](https://github/ctcampbell)
+
+---
+### [veracode-wrapperapi](https://github.com/dennismedeiros/veracode-wrapperapi)
+
+![](https://img.shields.io/github/stars/dennismedeiros/veracode-wrapperapi.svg?style=social)
+![](https://img.shields.io/github/forks/dennismedeiros/veracode-wrapperapi.svg?style=social)
+![](https://img.shields.io/github/watchers/dennismedeiros/veracode-wrapperapi.svg?style=social)
+
+![](https://img.shields.io/github/languages/top/dennismedeiros/veracode-wrapperapi)
+![](https://img.shields.io/github/contributors/dennismedeiros/veracode-wrapperapi)
+
+This container image contains a version of the Veracode Java Wrapper API. Configured to perform the actions available to the Veracode Wrapper API in a secure way.
+
+[![](https://img.shields.io/github/followers/dennismedeiros?label=dennismedeiros&style=social)](https://github/dennismedeiros)

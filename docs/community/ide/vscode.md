@@ -40,3 +40,8 @@ A plugin for Visual Studio Code that enables integration with Veracode Static An
 [![](https://img.shields.io/github/followers/ctcampbell?label=ctcampbell&style=social)](https://github/ctcampbell)
 
 ---
+### [VSCode-Veracode](https://gitlab.com/buzzcode/VSCode-Veracode)
+
+A plugin for Visual Studio Code that enables integration with Veracode Static Analysis. Currently, this only supports flaw download, but will be enhanced to support upload as well in the future.
+
+[Buzzcode](https://gitlab.com/Buzzcode)

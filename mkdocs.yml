@@ -38,8 +38,8 @@ nav:
         - IDE:
             - VsCode: community/ide/vscode.md
         - Testing Tools:
-            - Postman: community/sdk/postman.md
-            - Insomnia: community/sdk/insomnia.md
+            - Postman: community/testing-tools/postman.md
+            - Insomnia: community/testing-tools/insomnia.md
         - Utility:
             - Administration: community/utility/administration.md
         - Workflow:
