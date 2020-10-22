@@ -1,14 +1,10 @@
 ### [Bamboo/Jira](https://github.com/buildcom/VeracodeAtlassianPlugin)
 
-![](https://img.shields.io/github/stars/buildcom/VeracodeAtlassianPlugin.svg?style=social)
-![](https://img.shields.io/github/forks/buildcom/VeracodeAtlassianPlugin.svg?style=social)
-![](https://img.shields.io/github/watchers/buildcom/VeracodeAtlassianPlugin.svg?style=social)
-
-![](https://img.shields.io/github/languages/top/buildcom/VeracodeAtlassianPlugin)
-![](https://img.shields.io/github/contributors/buildcom/VeracodeAtlassianPlugin)
-
 Provides a pair of simple plugins for upload and results handling from within Bamboo, and a lightweight script to create Jira issues (archived project).
 
+![](https://img.shields.io/github/stars/buildcom/VeracodeAtlassianPlugin.svg)
+![](https://img.shields.io/github/languages/top/buildcom/VeracodeAtlassianPlugin)
+![](https://img.shields.io/github/contributors/buildcom/VeracodeAtlassianPlugin)
 [![](https://img.shields.io/github/followers/buildcom?label=buildcom&style=social)](https://github.com/buildcom)
 
 ---

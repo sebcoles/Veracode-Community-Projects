@@ -140,15 +140,11 @@ This script will pull all open findings across all sandboxes for all application
 ---
 ### [Veracode Workspace Auto Create](https://github.com/tjarrettveracode/veracode-workspace-auto-create)
 
-![](https://img.shields.io/github/stars/tjarrettveracode/veracode-workspace-auto-create.svg?style=social)
-![](https://img.shields.io/github/forks/tjarrettveracode/veracode-workspace-auto-create.svg?style=social)
-![](https://img.shields.io/github/watchers/tjarrettveracode/veracode-workspace-auto-create.svg?style=social)
-
-![](https://img.shields.io/github/languages/top/tjarrettveracode/veracode-workspace-auto-create)
-![](https://img.shields.io/github/contributors/tjarrettveracode/veracode-workspace-auto-create)
-
 This script will pull all open findings across all sandboxes for all applications and calculate which mitigated (proposed, accepted, or rejected) findings only exist in a single sandbox, and therefore may be deleted when the sandbox is deleted.
 
+![](https://img.shields.io/github/stars/tjarrettveracode/veracode-workspace-auto-create.svg)
+![](https://img.shields.io/github/languages/top/tjarrettveracode/veracode-workspace-auto-create)
+![](https://img.shields.io/github/contributors/tjarrettveracode/veracode-workspace-auto-create)
 [![](https://img.shields.io/github/followers/tjarrettveracode?label=tjarrettveracode&style=social)](https://github.com/tjarrettveracode)
 
 ---
