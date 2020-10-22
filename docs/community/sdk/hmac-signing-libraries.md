@@ -1,3 +1,6 @@
+## HMAC Signing
+The Veracode APIs require a HMAC at part of the HTTP payload, these are example implementations for different languages.
+
 ### [vcodeHMAC](https://github.com/brian1917/vcodeHMAC)
 
 ![](https://img.shields.io/github/stars/brian1917/vcodeHMAC.svg?style=social)
