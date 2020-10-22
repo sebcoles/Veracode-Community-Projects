@@ -51,3 +51,6 @@ extra_css:
     - css/font-awesome.min.css
 extra_javascript:
     - js/extra.js
+plugins:
+    - search:
+        separator: '[\s\-\.]+'
