@@ -57,7 +57,7 @@ Several project that allow for processing of Veracode XML API data through calls
 [![](https://img.shields.io/github/followers/dennismedeiros?label=dennismedeiros&style=social)](https://github.com/dennismedeiros)
 
 ---
-## .NET
+## dotnet (.NET)
 
 ### [.NET Core (NuGet Package)](https://github.com/sebcoles/Veracode.OSS.Wrapper)
 
