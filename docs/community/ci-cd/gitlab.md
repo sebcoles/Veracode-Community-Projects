@@ -9,6 +9,6 @@
 
 Example configurations for integrating Veracode scanning.
 
-[![](https://img.shields.io/github/followers/ctcampbell?label=ctcampbell&style=social)](https://github/ctcampbell)
+[![](https://img.shields.io/github/followers/ctcampbell?label=ctcampbell&style=social)](https://github.com/ctcampbell)
 
 ---

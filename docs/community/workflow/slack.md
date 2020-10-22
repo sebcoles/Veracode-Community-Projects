@@ -9,6 +9,6 @@
 
 AWS Lambda commands that provide the ability to access Veracode application and build information from Slack.
 
-[![](https://img.shields.io/github/followers/ctcampbell?label=ctcampbell&style=social)](https://github/ctcampbell)
+[![](https://img.shields.io/github/followers/ctcampbell?label=ctcampbell&style=social)](https://github.com/ctcampbell)
 
 ---

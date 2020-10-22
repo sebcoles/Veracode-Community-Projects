@@ -9,4 +9,4 @@
 
 SBT (Scala Build Tool) plugin for Veracode.
 
-[![](https://img.shields.io/github/followers/sullis?label=sullis&style=social)](https://github/sullis)
+[![](https://img.shields.io/github/followers/sullis?label=sullis&style=social)](https://github.com/sullis)

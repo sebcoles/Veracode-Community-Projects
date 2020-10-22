@@ -9,4 +9,4 @@
 
 Set of Gradle tasks, usable either as a command line submission tool or integrated as part of a continuous integration build process, to perform Veracode submission for applications and scan results for flaws.
 
-[![](https://img.shields.io/github/followers/calgaryscientific?label=calgaryscientific&style=social)](https://github/calgaryscientific)
+[![](https://img.shields.io/github/followers/calgaryscientific?label=calgaryscientific&style=social)](https://github.com/calgaryscientific)

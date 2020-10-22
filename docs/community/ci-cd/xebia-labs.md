@@ -9,4 +9,4 @@
 
 XL Release for Veracode test automation.
 
-[![](https://img.shields.io/github/followers/xebialabs-community?label=xebialabs-community&style=social)](https://github/xebialabs-community)
+[![](https://img.shields.io/github/followers/xebialabs-community?label=xebialabs-community&style=social)](https://github.com/xebialabs-community)

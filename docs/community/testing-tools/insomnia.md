@@ -9,6 +9,6 @@
 
 Adds an HMAC authentication header to Veracode API requests in Insomnia.
 
-[![](https://img.shields.io/github/followers/ctcampbell?label=ctcampbell&style=social)](https://github/ctcampbell)
+[![](https://img.shields.io/github/followers/ctcampbell?label=ctcampbell&style=social)](https://github.com/ctcampbell)
 
 ---

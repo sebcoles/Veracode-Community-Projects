@@ -9,7 +9,7 @@
 
 A simple example script to delete a Sandbox if it exists in a Veracode application profile and you have the appropriate permissions.
 
-[![](https://img.shields.io/github/followers/christyson?label=christyson&style=social)](https://github/christyson)
+[![](https://img.shields.io/github/followers/christyson?label=christyson&style=social)](https://github.com/christyson)
 
 ---
 ### [Check Build Status](https://github.com/christyson/check_build_status)
@@ -23,7 +23,7 @@ A simple example script to delete a Sandbox if it exists in a Veracode applicati
 
 Script to check if an application profile in Veracode has a build running currently.
 
-[![](https://img.shields.io/github/followers/christyson?label=christyson&style=social)](https://github/christyson)
+[![](https://img.shields.io/github/followers/christyson?label=christyson&style=social)](https://github.com/christyson)
 
 ---
 ### [Veracode API Credentials Expiry](https://github.com/christyson/veracode-python-api_credentials_expiry-example)
@@ -37,7 +37,7 @@ Script to check if an application profile in Veracode has a build running curren
 
 A simple example to get the exiration dates of api credentials for your users.
 
-[![](https://img.shields.io/github/followers/christyson?label=christyson&style=social)](https://github/christyson)
+[![](https://img.shields.io/github/followers/christyson?label=christyson&style=social)](https://github.com/christyson)
 
 ---
 ### [VcodeAutoMitigate](https://github.com/brian1917/vcodeAutoMitigate)
@@ -51,7 +51,7 @@ A simple example to get the exiration dates of api credentials for your users.
 
 Command line app that mitigates flaws in Veracode based on CWE, scan type, and specific text in the description.
 
-[![](https://img.shields.io/github/followers/brian1917?label=brian1917&style=social)](https://github/brian1917)
+[![](https://img.shields.io/github/followers/brian1917?label=brian1917&style=social)](https://github.com/brian1917)
 
 ---
 ### [VcodeMitigationExpire](https://github.com/brian1917/vcodeMitigationExpire)
@@ -65,7 +65,7 @@ Command line app that mitigates flaws in Veracode based on CWE, scan type, and s
 
 Utility designed to be run on a regular cadence (e.g., weekly cron job) to expire mitigations. The types of mitigations, expiration references, and other settings are controlled in a JSON config file.
 
-[![](https://img.shields.io/github/followers/brian1917?label=brian1917&style=social)](https://github/brian1917)
+[![](https://img.shields.io/github/followers/brian1917?label=brian1917&style=social)](https://github.com/brian1917)
 
 ---
 ### [Veracode Break the Build by Severity](https://github.com/christyson/Veracode-Break-The-Build-By-Severity)
@@ -79,7 +79,7 @@ Utility designed to be run on a regular cadence (e.g., weekly cron job) to expir
 
 This project contains three python scripts useful for working with Veracode projects in a build pipeline to break the build if any findings of a given severity or higher are found.
 
-[![](https://img.shields.io/github/followers/christyson?label=christyson&style=social)](https://github/christyson)
+[![](https://img.shields.io/github/followers/christyson?label=christyson&style=social)](https://github.com/christyson)
 
 ---
 ### [Veracode BCA Builder](https://github.com/brian1917/veracode-bca-builder)
@@ -93,7 +93,7 @@ This project contains three python scripts useful for working with Veracode proj
 
 Shell script to generate the BCA package to scan an iOS app.
 
-[![https://github/brian1917](https://img.shields.io/github/followers/brian1917?label=brian1917&style=social)](https://github/brian1917)
+[![https://github/brian1917](https://img.shields.io/github/followers/brian1917?label=brian1917&style=social)](https://github.com/brian1917)
 
 ---
 ### [Veracode Sandbox Mitigated Unique Findings](https://github.com/ctcampbell/veracode-sandbox-mitigated-unique-findings)

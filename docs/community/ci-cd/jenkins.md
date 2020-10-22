@@ -23,7 +23,7 @@ Extends the Java API Wrapper to provide "break the build" style scanning. Includ
 
 Unofficial Veracode shell integration for Jenkins Freestyle projects.
 
-[![](https://img.shields.io/github/followers/ian-c-leonard?label=ian-c-leonard&style=social)](https://github/ian-c-leonard)
+[![](https://img.shields.io/github/followers/ian-c-leonard?label=ian-c-leonard&style=social)](https://github.com/ian-c-leonard)
 
 ---
 ### [veracode-scripts](https://gitlab.com/aszaryk/veracode-scripts)

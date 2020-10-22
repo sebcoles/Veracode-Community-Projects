@@ -37,7 +37,7 @@ Veracode scan collector and parser for the Hygieia dashboard.
 
 A JupiterOne managed integration for Veracode.
 
-[![](https://img.shields.io/github/followers/JupiterOne?label=JupiterOne&style=social)](https://github/JupiterOne)
+[![](https://img.shields.io/github/followers/JupiterOne?label=JupiterOne&style=social)](https://github.com/JupiterOne)
 
 ---
 ### [F5 WAF](https://github.com/julz0815/veracode-dynamic-2-F5-waf-export)
@@ -51,4 +51,4 @@ A JupiterOne managed integration for Veracode.
 
 Transforms Veracode dynamic result files into the F5 generic scanner result format for import into the F5 web application firewall.
 
-[![](https://img.shields.io/github/followers/julz0815?label=julz0815&style=social)](https://github/julz0815)
+[![](https://img.shields.io/github/followers/julz0815?label=julz0815&style=social)](https://github.com/julz0815)

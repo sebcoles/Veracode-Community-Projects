@@ -9,4 +9,4 @@
 
 Unofficial Veracode plugin for SonarQube.
 
-[![](https://img.shields.io/github/followers/buzzcode?label=buzzcode&style=social)](https://github/buzzcode)
+[![](https://img.shields.io/github/followers/buzzcode?label=buzzcode&style=social)](https://github.com/buzzcode)

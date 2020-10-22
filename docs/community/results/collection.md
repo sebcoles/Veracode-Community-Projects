@@ -9,7 +9,7 @@
 
 Summary statistics for a Veracode account on the command line.
 
-[![](https://img.shields.io/github/followers/ctcampbell?label=ctcampbell&style=social)](https://github/ctcampbell)
+[![](https://img.shields.io/github/followers/ctcampbell?label=ctcampbell&style=social)](https://github.com/ctcampbell)
 
 ---
 ### [VeraData](https://github.com/sebcoles/VeraData)
@@ -23,6 +23,6 @@ Summary statistics for a Veracode account on the command line.
 
 Console application that will retrieve data (all scans, flaws, mitigations etc) for a given AppId and store the results in a relational schema (only supports MSSQL Server currently) ready for plugging your favourite BI tool into!
 
-[![](https://img.shields.io/github/followers/sebcoles?label=sebcoles&style=social)](https://github/sebcoles)
+[![](https://img.shields.io/github/followers/sebcoles?label=sebcoles&style=social)](https://github.com/sebcoles)
 
 ---

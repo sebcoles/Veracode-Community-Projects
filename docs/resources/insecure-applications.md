@@ -23,7 +23,7 @@ Sample insecure application written in Java and Javascript, showing vulnerabilit
 
 NodeGoat, built w/CircleCI, showing how to use a yaml file to scan w/Veracode.
 
-[![](https://img.shields.io/github/followers/buzzcode?label=buzzcode&style=social)](https://github/buzzcode)
+[![](https://img.shields.io/github/followers/buzzcode?label=buzzcode&style=social)](https://github.com/buzzcode)
 
 ---
 ### [verademo-dotnet](https://github.com/veracode/verademo-dotnet)
@@ -37,6 +37,6 @@ NodeGoat, built w/CircleCI, showing how to use a yaml file to scan w/Veracode.
 
 A port of the Verademo Blab-A-Gag application into .NET.
 
-[![](https://img.shields.io/github/followers/veracode?label=veracode&style=social)](https://github/veracode)
+[![](https://img.shields.io/github/followers/veracode?label=veracode&style=social)](https://github.com/veracode)
 
 ---

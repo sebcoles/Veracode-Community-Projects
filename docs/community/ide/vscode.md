@@ -9,7 +9,7 @@
 
 A plugin for Visual Studio Code that enables integration with Veracode Static Analysis. Currently, this only supports flaw download, but will be enhanced to support upload as well in the future.
 
-[![](https://img.shields.io/github/followers/Lerer?label=Lerer&style=social)](https://github/Lerer)
+[![](https://img.shields.io/github/followers/Lerer?label=Lerer&style=social)](https://github.com/Lerer)
 
 ---
 ### [unofficial-vs-code-veracode-pipeline-scan](https://github.com/ctcampbell/unofficial-vs-code-veracode-pipeline-scan)
@@ -23,7 +23,7 @@ A plugin for Visual Studio Code that enables integration with Veracode Static An
 
 A plugin for Visual Studio Code that enables integration with Veracode Static Analysis. Currently, this only supports flaw download, but will be enhanced to support upload as well in the future.
 
-[![](https://img.shields.io/github/followers/ctcampbell?label=ctcampbell&style=social)](https://github/ctcampbell)
+[![](https://img.shields.io/github/followers/ctcampbell?label=ctcampbell&style=social)](https://github.com/ctcampbell)
 
 ---
 ### [VSCode-Veracode](https://gitlab.com/buzzcode/VSCode-Veracode)

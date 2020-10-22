@@ -44,8 +44,8 @@ nav:
             - Slack: community/workflow/slack.md
             - Notifications: community/workflow/notifications.md
     - Resources:
-        - Insecure Applications: community/resources/insecure-applications.md
-        - Secure Coding Examples: community/resources/secure-coding-samples.md
+        - Insecure Applications: resources/insecure-applications.md
+        - Secure Coding Examples: resources/secure-coding-samples.md
 extra_css:
     - css/extra.css
     - css/font-awesome.min.css

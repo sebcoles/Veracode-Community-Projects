@@ -9,7 +9,7 @@
 
 Samples of Azure YML files that work with Veracode scanning.
 
-[![](https://img.shields.io/github/followers/Clintpollock?label=Clintpollock&style=social)](https://github/Clintpollock)
+[![](https://img.shields.io/github/followers/Clintpollock?label=Clintpollock&style=social)](https://github.com/Clintpollock)
 
 ---
 ### [Veracode Dynamic Analysis Azure Sample](https://github.com/jphillips-vc/Veracode-Dynamic-Analysis-Azure-Example)
@@ -23,4 +23,4 @@ Samples of Azure YML files that work with Veracode scanning.
 
 Samples of Azure YML files that work with Veracode scanning.
 
-[![](https://img.shields.io/github/followers/jphillips-vc?label=jphillips-vc&style=social)](https://github/jphillips-vc)
+[![](https://img.shields.io/github/followers/jphillips-vc?label=jphillips-vc&style=social)](https://github.com/jphillips-vc)

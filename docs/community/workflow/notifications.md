@@ -9,7 +9,7 @@
 
 Lambda function that sends a message to a web hook, for instance for use with Slack.
 
-[![](https://img.shields.io/github/followers/ctcampbell?label=ctcampbell&style=social)](https://github/ctcampbell)
+[![](https://img.shields.io/github/followers/ctcampbell?label=ctcampbell&style=social)](https://github.com/ctcampbell)
 
 ---
 ### [VeraHooks Mitigation Webhooks](https://github.com/sebcoles/VeraHooks)
@@ -23,6 +23,6 @@ Lambda function that sends a message to a web hook, for instance for use with Sl
 
 React .NET Core solution for creating custom webhooks that watch application profiles and trigger when mitigations meet specified conditions.
 
-[![](https://img.shields.io/github/followers/sebcoles?label=sebcoles&style=social)](https://github/sebcoles)
+[![](https://img.shields.io/github/followers/sebcoles?label=sebcoles&style=social)](https://github.com/sebcoles)
 
 ---

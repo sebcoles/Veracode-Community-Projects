@@ -9,7 +9,7 @@
 
 A JupiterOne managed integration for Veracode.
 
-[![](https://img.shields.io/github/followers/JupiterOne?label=JupiterOne&style=social)](https://github/JupiterOne)
+[![](https://img.shields.io/github/followers/JupiterOne?label=JupiterOne&style=social)](https://github.com/JupiterOne)
 
 ---
 ### [Stats](https://github.com/ctcampbell/veracode-stats)
@@ -23,4 +23,4 @@ A JupiterOne managed integration for Veracode.
 
 Summary statistics for a Veracode account on the command line.
 
-[![](https://img.shields.io/github/followers/ctcampbell?label=ctcampbell&style=social)](https://github/ctcampbell)
+[![](https://img.shields.io/github/followers/ctcampbell?label=ctcampbell&style=social)](https://github.com/ctcampbell)

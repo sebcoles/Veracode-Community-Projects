@@ -9,7 +9,7 @@
 
 Example configurations for integrating Veracode scanning.
 
-[![](https://img.shields.io/github/followers/ctcampbell?label=ctcampbell&style=social)](https://github/ctcampbell)
+[![](https://img.shields.io/github/followers/ctcampbell?label=ctcampbell&style=social)](https://github.com/ctcampbell)
 
 ---
 ### [Concourse (Veracode-Resource)](https://github.com/cardinal-health/veracode-resource)
@@ -23,4 +23,4 @@ Example configurations for integrating Veracode scanning.
 
 A concourse resource-type to allow publishing and retrieving scan results from Veracode.
 
-[![](https://img.shields.io/github/followers/cardinal-health?label=cardinal-health&style=social)](https://github/cardinal-health)
+[![](https://img.shields.io/github/followers/cardinal-health?label=cardinal-health&style=social)](https://github.com/cardinal-health)

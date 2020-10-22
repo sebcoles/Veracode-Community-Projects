@@ -9,6 +9,6 @@
 
 Utility designed to be run in a build process after a Veracode scan to notify a Flowdock flow that the scan completed. Optional to include policy compliance info in notification.
 
-[![](https://img.shields.io/github/followers/brian1917?label=brian1917&style=social)](https://github/brian1917)
+[![](https://img.shields.io/github/followers/brian1917?label=brian1917&style=social)](https://github.com/brian1917)
 
 ---

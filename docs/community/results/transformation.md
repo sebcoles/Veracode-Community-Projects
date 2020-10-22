@@ -78,6 +78,6 @@ App that generates a .xlsx remediation plan from a set of scan results augmented
 
 This script outputs one CSV file per scan per application profile visible in a Veracode platform account. The output can be imported into Splunk for further analysis.
 
-[![](https://img.shields.io/github/followers/ctcampbell?label=ctcampbell&style=social)](https://github/ctcampbell)
+[![](https://img.shields.io/github/followers/ctcampbell?label=ctcampbell&style=social)](https://github.com/ctcampbell)
 
 ---

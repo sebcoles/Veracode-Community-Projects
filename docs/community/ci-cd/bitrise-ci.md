@@ -9,4 +9,4 @@
 
 Veracode scanning step for Bitrise CI.
 
-[![](https://img.shields.io/github/followers/psoladoye-geotab?label=psoladoye-geotab&style=social)](https://github/psoladoye-geotab)
+[![](https://img.shields.io/github/followers/psoladoye-geotab?label=psoladoye-geotab&style=social)](https://github.com/psoladoye-geotab)

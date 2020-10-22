@@ -9,7 +9,7 @@
 
 CLI tool to generate an authorization header for Veracode APIs using API ID and Key. Given an HTTP method and URL, and the location of your Veracode API credentials file, you will get the value of an Authorization header printed out for piping into curl, httpie, or other scripting uses.
 
-[![](https://img.shields.io/github/followers/brian1917?label=brian1917&style=social)](https://github/brian1917)
+[![](https://img.shields.io/github/followers/brian1917?label=brian1917&style=social)](https://github.com/brian1917)
 
 ---
 ### [Veracode-cli](https://github.com/adidas/veracode-cli)
@@ -23,6 +23,6 @@ CLI tool to generate an authorization header for Veracode APIs using API ID and 
 
 Automated way to check application status and DevSecops compliance.
 
-[![](https://img.shields.io/github/followers/adidas?label=adidas&style=social)](https://github/adidas)
+[![](https://img.shields.io/github/followers/adidas?label=adidas&style=social)](https://github.com/adidas)
 
 ---
